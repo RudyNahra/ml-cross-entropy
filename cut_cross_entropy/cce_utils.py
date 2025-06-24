@@ -1,5 +1,5 @@
 # Copyright (C) 2024 Apple Inc. All Rights Reserved.
-
+from __future__ import annotations
 import enum
 from enum import auto
 from typing import TypedDict

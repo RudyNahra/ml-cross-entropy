@@ -1,9 +1,11 @@
 # Copyright (C) 2024 Apple Inc. All Rights Reserved.
+from __future__ import annotations
 import functools
 import importlib.metadata
 
 import packaging.version
 import torch
+
 
 
 @torch.compile(fullgraph=True)

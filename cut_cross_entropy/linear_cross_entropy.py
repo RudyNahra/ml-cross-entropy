@@ -1,4 +1,5 @@
 # Copyright (C) 2024 Apple Inc. All Rights Reserved.
+from __future__ import annotations
 import platform
 from typing import TYPE_CHECKING
 

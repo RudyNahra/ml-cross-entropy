@@ -1,3 +1,4 @@
+from __future__ import annotations
 # Copyright (C) 2024 Apple Inc. All Rights Reserved.
 from types import MethodType
 from typing import Optional, Tuple, Union
