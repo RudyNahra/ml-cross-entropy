@@ -58,6 +58,7 @@ def linear_cross_entropy(
     """
     :param impl: The linear cross entropy implementation to use. Currently supports cce, torch_compile, and cce_exact.
     """
+    print("YOU ARE USING CCE!!!")
 
     if is_torch_greater_or_equal_2_5():
         maybe_tensor_inputs = dict(e=e, c=c, targets=targets, bias=bias)
